@@ -57,7 +57,7 @@
   "@id" : "http://purl.org/vocab/vann/usageNote",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://schema.org/ContactPoint",
+  "@id" : "https://schema.org/ContactPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -67,7 +67,7 @@
     "@value" : "Punto di Contatto"
   } ]
 }, {
-  "@id" : "http://schema.org/DayOfWeek",
+  "@id" : "https://schema.org/DayOfWeek",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -81,7 +81,7 @@
     "@value" : "Giorno della Settimana"
   } ]
 }, {
-  "@id" : "http://schema.org/Event",
+  "@id" : "https://schema.org/Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -91,7 +91,7 @@
     "@value" : "Evento"
   } ]
 }, {
-  "@id" : "http://schema.org/Offer",
+  "@id" : "https://schema.org/Offer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -101,7 +101,7 @@
     "@value" : "Offerta"
   } ]
 }, {
-  "@id" : "http://schema.org/OpeningHoursSpecification",
+  "@id" : "https://schema.org/OpeningHoursSpecification",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -111,7 +111,7 @@
     "@value" : "Specifica Orari di Apertura"
   } ]
 }, {
-  "@id" : "http://schema.org/Organization",
+  "@id" : "https://schema.org/Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -121,7 +121,7 @@
     "@value" : "Organizzazione"
   } ]
 }, {
-  "@id" : "http://schema.org/Person",
+  "@id" : "https://schema.org/Person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -131,7 +131,7 @@
     "@value" : "Persona"
   } ]
 }, {
-  "@id" : "http://schema.org/Place",
+  "@id" : "https://schema.org/Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -141,7 +141,7 @@
     "@value" : "Place"
   } ]
 }, {
-  "@id" : "http://schema.org/Service",
+  "@id" : "https://schema.org/Service",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -151,7 +151,7 @@
     "@value" : "Servizio"
   } ]
 }, {
-  "@id" : "http://schema.org/ServiceChannel",
+  "@id" : "https://schema.org/ServiceChannel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -161,7 +161,7 @@
     "@value" : "Service Channel"
   } ]
 }, {
-  "@id" : "http://schema.org/alternateName",
+  "@id" : "https://schema.org/alternateName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -171,7 +171,7 @@
     "@value" : "nome alternativo"
   } ]
 }, {
-  "@id" : "http://schema.org/areaServed",
+  "@id" : "https://schema.org/areaServed",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -185,7 +185,7 @@
     "@value" : "area servita"
   } ]
 }, {
-  "@id" : "http://schema.org/availableChannel",
+  "@id" : "https://schema.org/availableChannel",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -199,7 +199,7 @@
     "@value" : "canale disponibile"
   } ]
 }, {
-  "@id" : "http://schema.org/availableLanguage",
+  "@id" : "https://schema.org/availableLanguage",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -209,7 +209,7 @@
     "@value" : "lingua disponibile"
   } ]
 }, {
-  "@id" : "http://schema.org/birthDate",
+  "@id" : "https://schema.org/birthDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -219,7 +219,7 @@
     "@value" : "data di nascita"
   } ]
 }, {
-  "@id" : "http://schema.org/closes",
+  "@id" : "https://schema.org/closes",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -229,7 +229,7 @@
     "@value" : "closes"
   } ]
 }, {
-  "@id" : "http://schema.org/contactPoint",
+  "@id" : "https://schema.org/contactPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -243,7 +243,7 @@
     "@value" : "punto di contatto"
   } ]
 }, {
-  "@id" : "http://schema.org/dayOfWeek",
+  "@id" : "https://schema.org/dayOfWeek",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -253,7 +253,7 @@
     "@value" : "giorno della settimana"
   } ]
 }, {
-  "@id" : "http://schema.org/description",
+  "@id" : "https://schema.org/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -263,7 +263,7 @@
     "@value" : "descrizione"
   } ]
 }, {
-  "@id" : "http://schema.org/duration",
+  "@id" : "https://schema.org/duration",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -277,7 +277,7 @@
     "@value" : "duration"
   } ]
 }, {
-  "@id" : "http://schema.org/email",
+  "@id" : "https://schema.org/email",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -287,7 +287,7 @@
     "@value" : "email"
   } ]
 }, {
-  "@id" : "http://schema.org/endDate",
+  "@id" : "https://schema.org/endDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -297,7 +297,7 @@
     "@value" : "end date"
   } ]
 }, {
-  "@id" : "http://schema.org/gender",
+  "@id" : "https://schema.org/gender",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -311,7 +311,7 @@
     "@value" : "genere"
   } ]
 }, {
-  "@id" : "http://schema.org/hoursAvailable",
+  "@id" : "https://schema.org/hoursAvailable",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -325,7 +325,7 @@
     "@value" : "orari disponibili"
   } ]
 }, {
-  "@id" : "http://schema.org/itemCondition",
+  "@id" : "https://schema.org/itemCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -339,7 +339,7 @@
     "@value" : "item condition"
   } ]
 }, {
-  "@id" : "http://schema.org/itemOffered",
+  "@id" : "https://schema.org/itemOffered",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -353,7 +353,7 @@
     "@value" : "oggetto offerto"
   } ]
 }, {
-  "@id" : "http://schema.org/legalName",
+  "@id" : "https://schema.org/legalName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -363,7 +363,7 @@
     "@value" : "nome legale"
   } ]
 }, {
-  "@id" : "http://schema.org/name",
+  "@id" : "https://schema.org/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -373,7 +373,7 @@
     "@value" : "nome"
   } ]
 }, {
-  "@id" : "http://schema.org/offers",
+  "@id" : "https://schema.org/offers",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -387,7 +387,7 @@
     "@value" : "offre"
   } ]
 }, {
-  "@id" : "http://schema.org/openingHoursSpecification",
+  "@id" : "https://schema.org/openingHoursSpecification",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -401,7 +401,7 @@
     "@value" : "specifica orari di apertura"
   } ]
 }, {
-  "@id" : "http://schema.org/opens",
+  "@id" : "https://schema.org/opens",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -411,7 +411,7 @@
     "@value" : "opens"
   } ]
 }, {
-  "@id" : "http://schema.org/price",
+  "@id" : "https://schema.org/price",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -421,7 +421,7 @@
     "@value" : "price"
   } ]
 }, {
-  "@id" : "http://schema.org/priceCurrency",
+  "@id" : "https://schema.org/priceCurrency",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -435,7 +435,7 @@
     "@value" : "valuta del prezzo"
   } ]
 }, {
-  "@id" : "http://schema.org/provider",
+  "@id" : "https://schema.org/provider",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -449,7 +449,7 @@
     "@value" : "provider"
   } ]
 }, {
-  "@id" : "http://schema.org/servicePhone",
+  "@id" : "https://schema.org/servicePhone",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -463,7 +463,7 @@
     "@value" : "service phone"
   } ]
 }, {
-  "@id" : "http://schema.org/serviceUrl",
+  "@id" : "https://schema.org/serviceUrl",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -477,7 +477,7 @@
     "@value" : "url del servizio"
   } ]
 }, {
-  "@id" : "http://schema.org/startDate",
+  "@id" : "https://schema.org/startDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://purl.org/vocab/vann/usageNote" : [ {
     "@language" : "it",
@@ -491,7 +491,7 @@
     "@value" : "start date"
   } ]
 }, {
-  "@id" : "http://schema.org/telephone",
+  "@id" : "https://schema.org/telephone",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -505,7 +505,7 @@
     "@value" : "telephone"
   } ]
 }, {
-  "@id" : "http://schema.org/url",
+  "@id" : "https://schema.org/url",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -822,7 +822,7 @@
     "@value" : "Stazione di Mobilità"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Place"
+    "@id" : "https://schema.org/Place"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#SensorRecord",
@@ -881,7 +881,7 @@
     "@value" : "Utente Privato del Servizio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Person"
+    "@id" : "https://schema.org/Person"
   }, {
     "@id" : "http://www.w3id.org/urban-iot/core#ServiceUser"
   } ]
@@ -937,7 +937,7 @@
     "@value" : "Usage Session"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Event"
+    "@id" : "https://schema.org/Event"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#associatedBusiness",
@@ -973,7 +973,7 @@
     "@value" : "Associates a person with her/his birth year."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Person"
+    "@id" : "https://schema.org/Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -986,7 +986,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://schema.org/birthDate"
+    "@id" : "https://schema.org/birthDate"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#containsObservation",
@@ -1048,7 +1048,7 @@
     "@value" : "Associates a Service with a Usage Session enabled by the service."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1074,7 +1074,7 @@
     "@value" : "Indica un costo fisso dell'Offerta."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Offer"
+    "@id" : "https://schema.org/Offer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1087,7 +1087,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://schema.org/price"
+    "@id" : "https://schema.org/price"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#hasEnabledUser",
@@ -1126,7 +1126,7 @@
     "@value" : "Associates a Service to a Service User."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1211,7 +1211,7 @@
     "@value" : "resa disponibile da"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://www.w3id.org/urban-iot/core#makesAvailable"
@@ -1227,7 +1227,7 @@
     "@value" : "Associates a Service with the Service Resource that makes available."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1283,7 +1283,7 @@
     "@value" : "offerta associata"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://schema.org/Offer"
+    "@id" : "https://schema.org/Offer"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#performsSession",
@@ -1381,7 +1381,7 @@
     "@value" : "registrato a"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#registersRecord",
@@ -1522,7 +1522,7 @@
     "@value" : "sessione abilitata da"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#sessionPerformedBy",
@@ -1591,7 +1591,7 @@
     "@value" : "utente del servizio"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/core#usesResource",

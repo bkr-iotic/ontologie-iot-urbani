@@ -127,7 +127,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.w3id.org/urban-iot/electric#hasChargingStationOwner
 <http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingStation> .
-<http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Organization> .
 <http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa una Organizzazione a una Stazione di Ricarica, dove l'Organizzazione possiede la Stazione."@it .
 <http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Organization with a Charging Station, where the Organization owns the Station."@en .
 <http://www.w3id.org/urban-iot/electric#hasChargingStationOwner> <http://www.w3.org/2000/01/rdf-schema#label> "has charging station owner"@en .
@@ -176,7 +176,7 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.w3id.org/urban-iot/electric#hasFacilityNearBy
 <http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingStation> .
-<http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Place> .
+<http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Place> .
 <http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa una Stazione di Ricarica ai possibili punti di interesse in zona, rappresentati come Luogo."@it .
 <http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Charging station with the possible point of interest near by, represented as Place."@en .
 <http://www.w3id.org/urban-iot/electric#hasFacilityNearBy> <http://www.w3.org/2000/01/rdf-schema#label> "ha punti di interesse vicini"@it .
@@ -234,7 +234,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator
 <http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingStation> .
-<http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Organization> .
 <http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa una Stazione di Ricarica a un possibile sub operatore, identificato come Organizzazione."@it .
 <http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Charging Station to a possible sub operator, identified as an Organization."@en .
 <http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#label> "ha un sub operatore di ricarica"@it .
@@ -373,11 +373,11 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://schema.org/image
-<http://schema.org/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/image> <http://purl.org/vocab/vann/usageNote> "Literal datatype xsd:anyURI."@en .
-<http://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#label> "image"@en .
-<http://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#label> "immagine"@it .
+# https://schema.org/image
+<https://schema.org/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/image> <http://purl.org/vocab/vann/usageNote> "Literal datatype xsd:anyURI."@en .
+<https://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#label> "image"@en .
+<https://schema.org/image> <http://www.w3.org/2000/01/rdf-schema#label> "immagine"@it .
 # 
 # http://www.w3id.org/urban-iot/electric#chargingDuringClosure
 <http://www.w3id.org/urban-iot/electric#chargingDuringClosure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -390,7 +390,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#chargingSessionDuration
 <http://www.w3id.org/urban-iot/electric#chargingSessionDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/electric#chargingSessionDuration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/duration> .
+<http://www.w3id.org/urban-iot/electric#chargingSessionDuration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/duration> .
 <http://www.w3id.org/urban-iot/electric#chargingSessionDuration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingSession> .
 <http://www.w3id.org/urban-iot/electric#chargingSessionDuration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://www.w3id.org/urban-iot/electric#chargingSessionDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la durata di una determinata Sessione di Ricarica."@it .
@@ -472,7 +472,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#pricePerKWhCharge
 <http://www.w3id.org/urban-iot/electric#pricePerKWhCharge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/electric#pricePerKWhCharge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/price> .
+<http://www.w3id.org/urban-iot/electric#pricePerKWhCharge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/price> .
 <http://www.w3id.org/urban-iot/electric#pricePerKWhCharge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> .
 <http://www.w3id.org/urban-iot/electric#pricePerKWhCharge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3id.org/urban-iot/electric#pricePerKWhCharge> <http://www.w3.org/2000/01/rdf-schema#comment> "Prezzo espresso in base ai kWh di ricarica."@it .
@@ -482,7 +482,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/price> .
+<http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/price> .
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> .
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge> <http://www.w3.org/2000/01/rdf-schema#comment> "Prezzo espresso in base ai minuti di ricarica."@it .
@@ -492,7 +492,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#pricePerMinuteParking
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteParking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/electric#pricePerMinuteParking> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/price> .
+<http://www.w3id.org/urban-iot/electric#pricePerMinuteParking> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/price> .
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteParking> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> .
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteParking> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3id.org/urban-iot/electric#pricePerMinuteParking> <http://www.w3.org/2000/01/rdf-schema#comment> "Prezzo espresso in base ai minuti di parcheggio."@it .
@@ -502,7 +502,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#pricePerMonthCharge
 <http://www.w3id.org/urban-iot/electric#pricePerMonthCharge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/electric#pricePerMonthCharge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/price> .
+<http://www.w3id.org/urban-iot/electric#pricePerMonthCharge> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/price> .
 <http://www.w3id.org/urban-iot/electric#pricePerMonthCharge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> .
 <http://www.w3id.org/urban-iot/electric#pricePerMonthCharge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3id.org/urban-iot/electric#pricePerMonthCharge> <http://www.w3.org/2000/01/rdf-schema#comment> "Prezzo espresso in base al mese per ricarica."@it .
@@ -570,8 +570,8 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://schema.mobivoc.org/#PlugType> <http://www.w3.org/2000/01/rdf-schema#label> "Plug Type"@en .
 <http://schema.mobivoc.org/#PlugType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di Presa"@it .
 # 
-# http://schema.org/Organization
-<http://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://schema.org/Organization
+<https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -581,7 +581,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#ChargePointOperator
 <http://www.w3id.org/urban-iot/electric#ChargePointOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/electric#ChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://www.w3id.org/urban-iot/electric#ChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
 <http://www.w3id.org/urban-iot/electric#ChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization that manages the supply of electricity in the Charging Stations."@en .
 <http://www.w3id.org/urban-iot/electric#ChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "Organizzazione che gestisce l'erogazione di corrente presso le Stazioni di Ricarica."@it .
 <http://www.w3id.org/urban-iot/electric#ChargePointOperator> <http://www.w3.org/2000/01/rdf-schema#label> "Charge Point Operator"@en .
@@ -589,7 +589,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#ChargingService
 <http://www.w3id.org/urban-iot/electric#ChargingService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/electric#ChargingService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Service> .
+<http://www.w3id.org/urban-iot/electric#ChargingService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Service> .
 <http://www.w3id.org/urban-iot/electric#ChargingService> <http://www.w3.org/2000/01/rdf-schema#comment> "Service operated by an eMobility Service Provider, with the purpose to manage the use of Electric Vehicle Supply Equipments (EVSE)."@en .
 <http://www.w3id.org/urban-iot/electric#ChargingService> <http://www.w3.org/2000/01/rdf-schema#comment> "Servizio operato da un Gestore di Servizi per la ricarica elettrica, con il fine di gestire l'utilizzo di Colonnine di Ricarica (EVSE)."@it .
 <http://www.w3id.org/urban-iot/electric#ChargingService> <http://www.w3.org/2000/01/rdf-schema#label> "Charging Service"@en .
@@ -597,7 +597,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#ChargingServiceOffer
 <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Offer> .
+<http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Offer> .
 <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "Tariff offered to charge services Users."@en .
 <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "Tariffa offerta agli Utenti dei Servizi di Ricarica."@it .
 <http://www.w3id.org/urban-iot/electric#ChargingServiceOffer> <http://www.w3.org/2000/01/rdf-schema#label> "Charging Service Offer"@en .
@@ -645,7 +645,7 @@ _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider
 <http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
 <http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization which offers the Charging Service"@en .
 <http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "Organizzazione che fornisce il Servizio di Ricarica."@it .
 <http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "Gestore di Servizi per la Ricarica Elettica"@it .

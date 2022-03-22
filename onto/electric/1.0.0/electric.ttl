@@ -131,7 +131,7 @@
 ###  http://www.w3id.org/urban-iot/electric#hasChargingStationOwner
 :hasChargingStationOwner rdf:type owl:ObjectProperty ;
                          rdfs:domain :ChargingStation ;
-                         rdfs:range <http://schema.org/Organization> ;
+                         rdfs:range <https://schema.org/Organization> ;
                          rdfs:comment "Associa una Organizzazione a una Stazione di Ricarica, dove l'Organizzazione possiede la Stazione."@it ,
                                       "Associates an Organization with a Charging Station, where the Organization owns the Station."@en ;
                          rdfs:label "has charging station owner"@en ,
@@ -180,7 +180,7 @@
 ###  http://www.w3id.org/urban-iot/electric#hasFacilityNearBy
 :hasFacilityNearBy rdf:type owl:ObjectProperty ;
                    rdfs:domain :ChargingStation ;
-                   rdfs:range <http://schema.org/Place> ;
+                   rdfs:range <https://schema.org/Place> ;
                    rdfs:comment "Associa una Stazione di Ricarica ai possibili punti di interesse in zona, rappresentati come Luogo."@it ,
                                 "Associates a Charging station with the possible point of interest near by, represented as Place."@en ;
                    rdfs:label "ha punti di interesse vicini"@it ,
@@ -234,7 +234,7 @@
 ###  http://www.w3id.org/urban-iot/electric#hasSubChargePointOperator
 :hasSubChargePointOperator rdf:type owl:ObjectProperty ;
                            rdfs:domain :ChargingStation ;
-                           rdfs:range <http://schema.org/Organization> ;
+                           rdfs:range <https://schema.org/Organization> ;
                            rdfs:comment "Associa una Stazione di Ricarica a un possibile sub operatore, identificato come Organizzazione."@it ,
                                         "Associates a Charging Station to a possible sub operator, identified as an Organization."@en ;
                            rdfs:label "ha un sub operatore di ricarica"@it ,
@@ -382,8 +382,8 @@
 #    Data properties
 #################################################################
 
-###  http://schema.org/image
-<http://schema.org/image> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/image
+<https://schema.org/image> rdf:type owl:DatatypeProperty ;
                           <http://purl.org/vocab/vann/usageNote> "Literal datatype xsd:anyURI."@en ;
                           rdfs:label "image"@en ,
                                      "immagine"@it .
@@ -401,7 +401,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#chargingSessionDuration
 :chargingSessionDuration rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf <http://schema.org/duration> ;
+                         rdfs:subPropertyOf <https://schema.org/duration> ;
                          rdfs:domain :ChargingSession ;
                          rdfs:range xsd:int ;
                          rdfs:comment "Indica la durata di una determinata Sessione di Ricarica."@it ,
@@ -492,7 +492,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#pricePerKWhCharge
 :pricePerKWhCharge rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf <http://schema.org/price> ;
+                   rdfs:subPropertyOf <https://schema.org/price> ;
                    rdfs:domain :ChargingServiceOffer ;
                    rdfs:range xsd:double ;
                    rdfs:comment "Prezzo espresso in base ai kWh di ricarica."@it ,
@@ -503,7 +503,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#pricePerMinuteCharge
 :pricePerMinuteCharge rdf:type owl:DatatypeProperty ;
-                      rdfs:subPropertyOf <http://schema.org/price> ;
+                      rdfs:subPropertyOf <https://schema.org/price> ;
                       rdfs:domain :ChargingServiceOffer ;
                       rdfs:range xsd:double ;
                       rdfs:comment "Prezzo espresso in base ai minuti di ricarica."@it ,
@@ -514,7 +514,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#pricePerMinuteParking
 :pricePerMinuteParking rdf:type owl:DatatypeProperty ;
-                       rdfs:subPropertyOf <http://schema.org/price> ;
+                       rdfs:subPropertyOf <https://schema.org/price> ;
                        rdfs:domain :ChargingServiceOffer ;
                        rdfs:range xsd:double ;
                        rdfs:comment "Prezzo espresso in base ai minuti di parcheggio."@it ,
@@ -525,7 +525,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#pricePerMonthCharge
 :pricePerMonthCharge rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf <http://schema.org/price> ;
+                     rdfs:subPropertyOf <https://schema.org/price> ;
                      rdfs:domain :ChargingServiceOffer ;
                      rdfs:range xsd:double ;
                      rdfs:comment "Prezzo espresso in base al mese per ricarica."@it ,
@@ -595,8 +595,8 @@
                                                  "Tipo di Presa"@it .
 
 
-###  http://schema.org/Organization
-<http://schema.org/Organization> rdf:type owl:Class .
+###  https://schema.org/Organization
+<https://schema.org/Organization> rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2004/02/skos/core#Concept
@@ -609,7 +609,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#ChargePointOperator
 :ChargePointOperator rdf:type owl:Class ;
-                     rdfs:subClassOf <http://schema.org/Organization> ;
+                     rdfs:subClassOf <https://schema.org/Organization> ;
                      rdfs:comment "Organization that manages the supply of electricity in the Charging Stations."@en ,
                                   "Organizzazione che gestisce l'erogazione di corrente presso le Stazioni di Ricarica."@it ;
                      rdfs:label "Charge Point Operator"@en ,
@@ -618,7 +618,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#ChargingService
 :ChargingService rdf:type owl:Class ;
-                 rdfs:subClassOf <http://schema.org/Service> ;
+                 rdfs:subClassOf <https://schema.org/Service> ;
                  rdfs:comment "Service operated by an eMobility Service Provider, with the purpose to manage the use of Electric Vehicle Supply Equipments (EVSE)."@en ,
                               "Servizio operato da un Gestore di Servizi per la ricarica elettrica, con il fine di gestire l'utilizzo di Colonnine di Ricarica (EVSE)."@it ;
                  rdfs:label "Charging Service"@en ,
@@ -627,7 +627,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#ChargingServiceOffer
 :ChargingServiceOffer rdf:type owl:Class ;
-                      rdfs:subClassOf <http://schema.org/Offer> ;
+                      rdfs:subClassOf <https://schema.org/Offer> ;
                       rdfs:comment "Tariff offered to charge services Users."@en ,
                                    "Tariffa offerta agli Utenti dei Servizi di Ricarica."@it ;
                       rdfs:label "Charging Service Offer"@en ,
@@ -681,7 +681,7 @@
 
 ###  http://www.w3id.org/urban-iot/electric#eMobilityServiceProvider
 :eMobilityServiceProvider rdf:type owl:Class ;
-                          rdfs:subClassOf <http://schema.org/Organization> ;
+                          rdfs:subClassOf <https://schema.org/Organization> ;
                           rdfs:comment "Organization which offers the Charging Service"@en ,
                                        "Organizzazione che fornisce il Servizio di Ricarica."@it ;
                           rdfs:label "Gestore di Servizi per la Ricarica Elettica"@it ,

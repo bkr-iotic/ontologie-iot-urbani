@@ -95,7 +95,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea
 :hasContractualOperationArea rdf:type owl:ObjectProperty ;
-                             rdfs:domain <http://schema.org/Service> ;
+                             rdfs:domain <https://schema.org/Service> ;
                              rdfs:range :ContractualOperationArea ;
                              rdfs:comment "Property referring to the contractual operation area of the Service."@en ,
                                           "Proprietà che identifica i confini minimi di esercizio di un Servizio."@it ;
@@ -136,7 +136,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#hasEmissionStandard
 :hasEmissionStandard rdf:type owl:ObjectProperty ;
-                     rdfs:domain <http://schema.org/Vehicle> ;
+                     rdfs:domain <https://schema.org/Vehicle> ;
                      rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -173,7 +173,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#hasOperationArea
 :hasOperationArea rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://schema.org/Service> ;
+                  rdfs:domain <https://schema.org/Service> ;
                   rdfs:range :OperationArea ;
                   rdfs:comment "Property referring to the operation area of the Service."@en ,
                                "Proprietà che identifica l'area operativa di un Servizio."@it ;
@@ -213,7 +213,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#hasPropulsionKind
 :hasPropulsionKind rdf:type owl:ObjectProperty ;
-                   rdfs:domain <http://schema.org/Vehicle> ;
+                   rdfs:domain <https://schema.org/Vehicle> ;
                    rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                      [ rdf:type owl:Restriction ;
                                                        owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -292,7 +292,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#hasVehicleCategory
 :hasVehicleCategory rdf:type owl:ObjectProperty ;
-                    rdfs:domain <http://schema.org/Vehicle> ;
+                    rdfs:domain <https://schema.org/Vehicle> ;
                     rdfs:range [ owl:intersectionOf ( <http://www.w3.org/2004/02/skos/core#Concept>
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty <http://www.w3.org/2004/02/skos/core#inScheme> ;
@@ -486,38 +486,38 @@
 #    Data properties
 #################################################################
 
-###  http://schema.org/brand
-<http://schema.org/brand> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/brand
+<https://schema.org/brand> rdf:type owl:DatatypeProperty ;
                           rdfs:label "brand"@en ,
                                      "marca"@it .
 
 
-###  http://schema.org/dateVehicleFirstRegistered
-<http://schema.org/dateVehicleFirstRegistered> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/dateVehicleFirstRegistered
+<https://schema.org/dateVehicleFirstRegistered> rdf:type owl:DatatypeProperty ;
                                                rdfs:label "data immatricolazione"@it ,
                                                           "date vehicle first registered"@en .
 
 
-###  http://schema.org/model
-<http://schema.org/model> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/model
+<https://schema.org/model> rdf:type owl:DatatypeProperty ;
                           rdfs:label "model"@en ,
                                      "modello"@it .
 
 
-###  http://schema.org/productionDate
-<http://schema.org/productionDate> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/productionDate
+<https://schema.org/productionDate> rdf:type owl:DatatypeProperty ;
                                    rdfs:label "data di produzione"@it ,
                                               "production date"@en .
 
 
-###  http://schema.org/seatingCapacity
-<http://schema.org/seatingCapacity> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/seatingCapacity
+<https://schema.org/seatingCapacity> rdf:type owl:DatatypeProperty ;
                                     rdfs:label "numero posti"@it ,
                                                "seating capacity"@en .
 
 
-###  http://schema.org/vehicleIdentificationNumber
-<http://schema.org/vehicleIdentificationNumber> rdf:type owl:DatatypeProperty ;
+###  https://schema.org/vehicleIdentificationNumber
+<https://schema.org/vehicleIdentificationNumber> rdf:type owl:DatatypeProperty ;
                                                 rdfs:label "numero di telaio"@it ,
                                                            "vehicle identification number"@en .
 
@@ -606,7 +606,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#longestRangeInKm
 :longestRangeInKm rdf:type owl:DatatypeProperty ;
-                  rdfs:domain <http://schema.org/Vehicle> ;
+                  rdfs:domain <https://schema.org/Vehicle> ;
                   rdfs:range xsd:int ;
                   rdfs:comment "Associa ad un veicola la massima distanza teorica percorribile con un pieno di carburante/carica."@it ,
                                "Associates a vehicle with the maximum theoretical distance that can be covered with a full tank/charge."@en ;
@@ -636,7 +636,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#numberPlate
 :numberPlate rdf:type owl:DatatypeProperty ;
-             rdfs:domain <http://schema.org/Vehicle> ;
+             rdfs:domain <https://schema.org/Vehicle> ;
              rdfs:range xsd:string ;
              rdfs:comment "Associa un Veicolo al numero di targa."@it ,
                           "Associates a Vehicle with its number plate."@en ;
@@ -676,7 +676,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#pricePerTripKm
 :pricePerTripKm rdf:type owl:DatatypeProperty ;
-                rdfs:subPropertyOf <http://schema.org/price> ;
+                rdfs:subPropertyOf <https://schema.org/price> ;
                 rdfs:domain :SharingMobilityOffer ;
                 rdfs:range xsd:double ;
                 rdfs:comment "Associa un'Offerta di Sharing Mobility ad un costo per km di Noleggio."@it ,
@@ -687,7 +687,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#pricePerTripMinute
 :pricePerTripMinute rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf <http://schema.org/price> ;
+                    rdfs:subPropertyOf <https://schema.org/price> ;
                     rdfs:domain :SharingMobilityOffer ;
                     rdfs:range xsd:double ;
                     rdfs:comment "Associa un'Offerta di Sharing Mobility ad un costo per minuto di Noleggio."@it ,
@@ -698,7 +698,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#tripDuration
 :tripDuration rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf <http://schema.org/duration> ;
+              rdfs:subPropertyOf <https://schema.org/duration> ;
               <http://purl.org/vocab/vann/usageNote> "Literal consigliato xsd:duration."@it ;
               rdfs:comment "Associa un Noleggio alla sua durata totale."@it ,
                            "Associates a Sharing Mobility Trip with its total duration."@en ;
@@ -750,8 +750,8 @@
 #    Classes
 #################################################################
 
-###  http://schema.org/Vehicle
-<http://schema.org/Vehicle> rdf:type owl:Class ;
+###  https://schema.org/Vehicle
+<https://schema.org/Vehicle> rdf:type owl:Class ;
                             rdfs:label "Vehicle"@en ,
                                        "Veicolo"@it .
 
@@ -776,7 +776,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#Bicycle
 :Bicycle rdf:type owl:Class ;
-         rdfs:subClassOf <http://schema.org/Vehicle> ;
+         rdfs:subClassOf <https://schema.org/Vehicle> ;
          rdfs:comment "A vehicle of type bicycle."@en ,
                       "Un veicolo categorizzato come bicicletta."@it ;
          rdfs:label "Bicicletta"@it ,
@@ -785,7 +785,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#Car
 :Car rdf:type owl:Class ;
-     rdfs:subClassOf <http://schema.org/Vehicle> ;
+     rdfs:subClassOf <https://schema.org/Vehicle> ;
      rdfs:comment "A vehicle of type car."@en ,
                   "Un veicolo categorizzato come autovettura."@it ;
      rdfs:label "Autovettura"@it ,
@@ -856,7 +856,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle
 :MicroMobilityVehicle rdf:type owl:Class ;
-                      rdfs:subClassOf <http://schema.org/Vehicle> ;
+                      rdfs:subClassOf <https://schema.org/Vehicle> ;
                       rdfs:comment "A small and lightweight vehicle, usually electric, operating at low speeds."@en ,
                                    "Un veicolo piccolo e leggero, solitamente elettrico, che viaggia a velocità ridotte."@it ;
                       rdfs:label "Micro Mobility Vehicle"@en ,
@@ -874,7 +874,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#Motorcycle
 :Motorcycle rdf:type owl:Class ;
-            rdfs:subClassOf <http://schema.org/Vehicle> ;
+            rdfs:subClassOf <https://schema.org/Vehicle> ;
             rdfs:comment "A vehicle of type motorcycle."@en ,
                          "Un veicolo categorizzato come ciclomotore."@it ;
             rdfs:label "Ciclomotore"@it ,
@@ -995,7 +995,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer
 :SharingMobilityOffer rdf:type owl:Class ;
-                      rdfs:subClassOf <http://schema.org/Offer> ;
+                      rdfs:subClassOf <https://schema.org/Offer> ;
                       rdfs:comment "Offer (tariff) associated to a Sharing Mobility Service."@en ,
                                    "Offerta (tariffa) associata ad un Servizio di Sharing Mobility."@it ;
                       rdfs:label "Offerta di Sharing Mobility"@it ,
@@ -1004,7 +1004,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider
 :SharingMobilityProvider rdf:type owl:Class ;
-                         rdfs:subClassOf <http://schema.org/Organization> ;
+                         rdfs:subClassOf <https://schema.org/Organization> ;
                          rdfs:comment "Organization providing a Sharing Mobility Service."@en ,
                                       "Organizzazione che eroga un Servizio di Sharing Mobility."@it ;
                          rdfs:label "Fornitore Sharing Mobility"@it ,
@@ -1013,7 +1013,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#SharingMobilityService
 :SharingMobilityService rdf:type owl:Class ;
-                        rdfs:subClassOf <http://schema.org/Service> ;
+                        rdfs:subClassOf <https://schema.org/Service> ;
                         rdfs:comment "A Service that allows users to perform a trip using a fleet a vehicles made available on street from the service provider."@en ,
                                      "Un Servizio che permette ai suoi utenti l'utilizzo tramite noleggio di una flotta di veicoli che sono messi a disposizione in strada dal fornitore del servizio."@it ;
                         rdfs:label "Servizio di Sharing Mobility"@it ,
@@ -1031,7 +1031,7 @@
 
 ###  http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle
 :SharingMobilityVehicle rdf:type owl:Class ;
-                        rdfs:subClassOf <http://schema.org/Vehicle> ,
+                        rdfs:subClassOf <https://schema.org/Vehicle> ,
                                         <http://www.w3.org/ns/sosa/Sensor> ,
                                         <http://www.w3id.org/urban-iot/core#ServiceResource> ;
                         rdfs:comment "A vehicle enabled to be used in a Sharing Mobility Service."@en ,

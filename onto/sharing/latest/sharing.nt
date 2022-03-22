@@ -94,7 +94,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea
 <http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Service> .
+<http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Service> .
 <http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/urban-iot/sharing#ContractualOperationArea> .
 <http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Property referring to the contractual operation area of the Service."@en .
 <http://www.w3id.org/urban-iot/sharing#hasContractualOperationArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che identifica i confini minimi di esercizio di un Servizio."@it .
@@ -131,7 +131,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.w3id.org/urban-iot/sharing#hasEmissionStandard
 <http://www.w3id.org/urban-iot/sharing#hasEmissionStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3id.org/urban-iot/sharing#hasEmissionStandard> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#hasEmissionStandard> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#hasEmissionStandard> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
 _:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
@@ -169,7 +169,7 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.w3id.org/urban-iot/sharing#hasOperationArea
 <http://www.w3id.org/urban-iot/sharing#hasOperationArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3id.org/urban-iot/sharing#hasOperationArea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Service> .
+<http://www.w3id.org/urban-iot/sharing#hasOperationArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Service> .
 <http://www.w3id.org/urban-iot/sharing#hasOperationArea> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/urban-iot/sharing#OperationArea> .
 <http://www.w3id.org/urban-iot/sharing#hasOperationArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Property referring to the operation area of the Service."@en .
 <http://www.w3id.org/urban-iot/sharing#hasOperationArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietà che identifica l'area operativa di un Servizio."@it .
@@ -205,7 +205,7 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.w3id.org/urban-iot/sharing#hasPropulsionKind
 <http://www.w3id.org/urban-iot/sharing#hasPropulsionKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3id.org/urban-iot/sharing#hasPropulsionKind> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#hasPropulsionKind> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#hasPropulsionKind> <http://www.w3.org/2000/01/rdf-schema#range> _:genid13 .
 _:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
@@ -281,7 +281,7 @@ _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#hasVehicleCategory
 <http://www.w3id.org/urban-iot/sharing#hasVehicleCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3id.org/urban-iot/sharing#hasVehicleCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#hasVehicleCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#hasVehicleCategory> <http://www.w3.org/2000/01/rdf-schema#range> _:genid17 .
 _:genid17 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid20 .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
@@ -476,35 +476,35 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://schema.org/brand
-<http://schema.org/brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/brand> <http://www.w3.org/2000/01/rdf-schema#label> "brand"@en .
-<http://schema.org/brand> <http://www.w3.org/2000/01/rdf-schema#label> "marca"@it .
+# https://schema.org/brand
+<https://schema.org/brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/brand> <http://www.w3.org/2000/01/rdf-schema#label> "brand"@en .
+<https://schema.org/brand> <http://www.w3.org/2000/01/rdf-schema#label> "marca"@it .
 # 
-# http://schema.org/dateVehicleFirstRegistered
-<http://schema.org/dateVehicleFirstRegistered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/dateVehicleFirstRegistered> <http://www.w3.org/2000/01/rdf-schema#label> "data immatricolazione"@it .
-<http://schema.org/dateVehicleFirstRegistered> <http://www.w3.org/2000/01/rdf-schema#label> "date vehicle first registered"@en .
+# https://schema.org/dateVehicleFirstRegistered
+<https://schema.org/dateVehicleFirstRegistered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/dateVehicleFirstRegistered> <http://www.w3.org/2000/01/rdf-schema#label> "data immatricolazione"@it .
+<https://schema.org/dateVehicleFirstRegistered> <http://www.w3.org/2000/01/rdf-schema#label> "date vehicle first registered"@en .
 # 
-# http://schema.org/model
-<http://schema.org/model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/model> <http://www.w3.org/2000/01/rdf-schema#label> "model"@en .
-<http://schema.org/model> <http://www.w3.org/2000/01/rdf-schema#label> "modello"@it .
+# https://schema.org/model
+<https://schema.org/model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/model> <http://www.w3.org/2000/01/rdf-schema#label> "model"@en .
+<https://schema.org/model> <http://www.w3.org/2000/01/rdf-schema#label> "modello"@it .
 # 
-# http://schema.org/productionDate
-<http://schema.org/productionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/productionDate> <http://www.w3.org/2000/01/rdf-schema#label> "data di produzione"@it .
-<http://schema.org/productionDate> <http://www.w3.org/2000/01/rdf-schema#label> "production date"@en .
+# https://schema.org/productionDate
+<https://schema.org/productionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/productionDate> <http://www.w3.org/2000/01/rdf-schema#label> "data di produzione"@it .
+<https://schema.org/productionDate> <http://www.w3.org/2000/01/rdf-schema#label> "production date"@en .
 # 
-# http://schema.org/seatingCapacity
-<http://schema.org/seatingCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/seatingCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "numero posti"@it .
-<http://schema.org/seatingCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "seating capacity"@en .
+# https://schema.org/seatingCapacity
+<https://schema.org/seatingCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/seatingCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "numero posti"@it .
+<https://schema.org/seatingCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "seating capacity"@en .
 # 
-# http://schema.org/vehicleIdentificationNumber
-<http://schema.org/vehicleIdentificationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/vehicleIdentificationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "numero di telaio"@it .
-<http://schema.org/vehicleIdentificationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "vehicle identification number"@en .
+# https://schema.org/vehicleIdentificationNumber
+<https://schema.org/vehicleIdentificationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://schema.org/vehicleIdentificationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "numero di telaio"@it .
+<https://schema.org/vehicleIdentificationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "vehicle identification number"@en .
 # 
 # http://www.w3.org/2003/01/geo/wgs84_pos#lat
 <http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -581,7 +581,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#longestRangeInKm
 <http://www.w3id.org/urban-iot/sharing#longestRangeInKm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/sharing#longestRangeInKm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#longestRangeInKm> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#longestRangeInKm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://www.w3id.org/urban-iot/sharing#longestRangeInKm> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa ad un veicola la massima distanza teorica percorribile con un pieno di carburante/carica."@it .
 <http://www.w3id.org/urban-iot/sharing#longestRangeInKm> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a vehicle with the maximum theoretical distance that can be covered with a full tank/charge."@en .
@@ -608,7 +608,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#numberPlate
 <http://www.w3id.org/urban-iot/sharing#numberPlate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/sharing#numberPlate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#numberPlate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#numberPlate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.w3id.org/urban-iot/sharing#numberPlate> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un Veicolo al numero di targa."@it .
 <http://www.w3id.org/urban-iot/sharing#numberPlate> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Vehicle with its number plate."@en .
@@ -644,7 +644,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#pricePerTripKm
 <http://www.w3id.org/urban-iot/sharing#pricePerTripKm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/sharing#pricePerTripKm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/price> .
+<http://www.w3id.org/urban-iot/sharing#pricePerTripKm> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/price> .
 <http://www.w3id.org/urban-iot/sharing#pricePerTripKm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> .
 <http://www.w3id.org/urban-iot/sharing#pricePerTripKm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3id.org/urban-iot/sharing#pricePerTripKm> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Offerta di Sharing Mobility ad un costo per km di Noleggio."@it .
@@ -654,7 +654,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#pricePerTripMinute
 <http://www.w3id.org/urban-iot/sharing#pricePerTripMinute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/sharing#pricePerTripMinute> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/price> .
+<http://www.w3id.org/urban-iot/sharing#pricePerTripMinute> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/price> .
 <http://www.w3id.org/urban-iot/sharing#pricePerTripMinute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> .
 <http://www.w3id.org/urban-iot/sharing#pricePerTripMinute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://www.w3id.org/urban-iot/sharing#pricePerTripMinute> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Offerta di Sharing Mobility ad un costo per minuto di Noleggio."@it .
@@ -664,7 +664,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#tripDuration
 <http://www.w3id.org/urban-iot/sharing#tripDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3id.org/urban-iot/sharing#tripDuration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/duration> .
+<http://www.w3id.org/urban-iot/sharing#tripDuration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://schema.org/duration> .
 <http://www.w3id.org/urban-iot/sharing#tripDuration> <http://purl.org/vocab/vann/usageNote> "Literal consigliato xsd:duration."@it .
 <http://www.w3id.org/urban-iot/sharing#tripDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un Noleggio alla sua durata totale."@it .
 <http://www.w3id.org/urban-iot/sharing#tripDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a Sharing Mobility Trip with its total duration."@en .
@@ -716,10 +716,10 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://schema.org/Vehicle
-<http://schema.org/Vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://schema.org/Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Vehicle"@en .
-<http://schema.org/Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Veicolo"@it .
+# https://schema.org/Vehicle
+<https://schema.org/Vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://schema.org/Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Vehicle"@en .
+<https://schema.org/Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Veicolo"@it .
 # 
 # http://www.opengis.net/ont/geosparql#Feature
 <http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -737,7 +737,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#Bicycle
 <http://www.w3id.org/urban-iot/sharing#Bicycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#Bicycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#Bicycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#Bicycle> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle of type bicycle."@en .
 <http://www.w3id.org/urban-iot/sharing#Bicycle> <http://www.w3.org/2000/01/rdf-schema#comment> "Un veicolo categorizzato come bicicletta."@it .
 <http://www.w3id.org/urban-iot/sharing#Bicycle> <http://www.w3.org/2000/01/rdf-schema#label> "Bicicletta"@it .
@@ -745,7 +745,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#Car
 <http://www.w3id.org/urban-iot/sharing#Car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#Car> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#Car> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#Car> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle of type car."@en .
 <http://www.w3id.org/urban-iot/sharing#Car> <http://www.w3.org/2000/01/rdf-schema#comment> "Un veicolo categorizzato come autovettura."@it .
 <http://www.w3id.org/urban-iot/sharing#Car> <http://www.w3.org/2000/01/rdf-schema#label> "Autovettura"@it .
@@ -808,7 +808,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle
 <http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "A small and lightweight vehicle, usually electric, operating at low speeds."@en .
 <http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "Un veicolo piccolo e leggero, solitamente elettrico, che viaggia a velocità ridotte."@it .
 <http://www.w3id.org/urban-iot/sharing#MicroMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Micro Mobility Vehicle"@en .
@@ -824,7 +824,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#Motorcycle
 <http://www.w3id.org/urban-iot/sharing#Motorcycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#Motorcycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#Motorcycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#Motorcycle> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle of type motorcycle."@en .
 <http://www.w3id.org/urban-iot/sharing#Motorcycle> <http://www.w3.org/2000/01/rdf-schema#comment> "Un veicolo categorizzato come ciclomotore."@it .
 <http://www.w3id.org/urban-iot/sharing#Motorcycle> <http://www.w3.org/2000/01/rdf-schema#label> "Ciclomotore"@it .
@@ -932,7 +932,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Offer> .
+<http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Offer> .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "Offer (tariff) associated to a Sharing Mobility Service."@en .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "Offerta (tariffa) associata ad un Servizio di Sharing Mobility."@it .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityOffer> <http://www.w3.org/2000/01/rdf-schema#label> "Offerta di Sharing Mobility"@it .
@@ -940,7 +940,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization providing a Sharing Mobility Service."@en .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "Organizzazione che eroga un Servizio di Sharing Mobility."@it .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider> <http://www.w3.org/2000/01/rdf-schema#label> "Fornitore Sharing Mobility"@it .
@@ -948,7 +948,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#SharingMobilityService
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#SharingMobilityService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Service> .
+<http://www.w3id.org/urban-iot/sharing#SharingMobilityService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Service> .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityService> <http://www.w3.org/2000/01/rdf-schema#comment> "A Service that allows users to perform a trip using a fleet a vehicles made available on street from the service provider."@en .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityService> <http://www.w3.org/2000/01/rdf-schema#comment> "Un Servizio che permette ai suoi utenti l'utilizzo tramite noleggio di una flotta di veicoli che sono messi a disposizione in strada dal fornitore del servizio."@it .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityService> <http://www.w3.org/2000/01/rdf-schema#label> "Servizio di Sharing Mobility"@it .
@@ -964,7 +964,7 @@ _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Vehicle> .
+<http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Vehicle> .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Sensor> .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/urban-iot/core#ServiceResource> .
 <http://www.w3id.org/urban-iot/sharing#SharingMobilityVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle enabled to be used in a Sharing Mobility Service."@en .

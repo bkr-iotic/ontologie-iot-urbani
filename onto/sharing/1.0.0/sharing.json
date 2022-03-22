@@ -132,7 +132,7 @@
     } ]
   } ]
 }, {
-  "@id" : "http://schema.org/Vehicle",
+  "@id" : "https://schema.org/Vehicle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -142,7 +142,7 @@
     "@value" : "Veicolo"
   } ]
 }, {
-  "@id" : "http://schema.org/brand",
+  "@id" : "https://schema.org/brand",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -152,7 +152,7 @@
     "@value" : "marca"
   } ]
 }, {
-  "@id" : "http://schema.org/dateVehicleFirstRegistered",
+  "@id" : "https://schema.org/dateVehicleFirstRegistered",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -162,7 +162,7 @@
     "@value" : "date vehicle first registered"
   } ]
 }, {
-  "@id" : "http://schema.org/model",
+  "@id" : "https://schema.org/model",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -172,7 +172,7 @@
     "@value" : "modello"
   } ]
 }, {
-  "@id" : "http://schema.org/productionDate",
+  "@id" : "https://schema.org/productionDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -182,7 +182,7 @@
     "@value" : "production date"
   } ]
 }, {
-  "@id" : "http://schema.org/seatingCapacity",
+  "@id" : "https://schema.org/seatingCapacity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -192,7 +192,7 @@
     "@value" : "seating capacity"
   } ]
 }, {
-  "@id" : "http://schema.org/vehicleIdentificationNumber",
+  "@id" : "https://schema.org/vehicleIdentificationNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -438,7 +438,7 @@
     "@value" : "Bicycle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#BicycleSharing",
@@ -468,7 +468,7 @@
     "@value" : "Car"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#CarSharing",
@@ -729,7 +729,7 @@
     "@value" : "Veicolo di Micro-Mobilità"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#Monowheel",
@@ -769,7 +769,7 @@
     "@value" : "Motorcycle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#MotorcycleSharing",
@@ -1047,7 +1047,7 @@
     "@value" : "Sharing Mobility Offer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Offer"
+    "@id" : "https://schema.org/Offer"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#SharingMobilityProvider",
@@ -1067,7 +1067,7 @@
     "@value" : "Sharing Mobility Provider"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Organization"
+    "@id" : "https://schema.org/Organization"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#SharingMobilityService",
@@ -1087,7 +1087,7 @@
     "@value" : "Sharing Mobility Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#SharingMobilityTrip",
@@ -1127,7 +1127,7 @@
     "@value" : "Veicolo Sharing Mobility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   }, {
     "@id" : "http://www.w3.org/ns/sosa/Sensor"
   }, {
@@ -1564,7 +1564,7 @@
     "@value" : "Proprietà che identifica i confini minimi di esercizio di un Servizio."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1659,7 +1659,7 @@
     "@value" : "Associates a Vehicle with the emission standard that complies with."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1728,7 +1728,7 @@
     "@value" : "Proprietà che identifica l'area operativa di un Servizio."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Service"
+    "@id" : "https://schema.org/Service"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1820,7 +1820,7 @@
     "@value" : "Associates a Vehicle with its propulsion kind."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -1988,7 +1988,7 @@
     "@value" : "Associates a Vehicle to its vehicle category according to the international classification."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "it",
@@ -2080,7 +2080,7 @@
     "@value" : "Associates a vehicle with the maximum theoretical distance that can be covered with a full tank/charge."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2178,7 +2178,7 @@
     "@value" : "Associates a Vehicle with its number plate."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://schema.org/Vehicle"
+    "@id" : "https://schema.org/Vehicle"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2335,7 +2335,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://schema.org/price"
+    "@id" : "https://schema.org/price"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#pricePerTripMinute",
@@ -2361,7 +2361,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://schema.org/price"
+    "@id" : "https://schema.org/price"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#providesSharingMobilityService",
@@ -2480,7 +2480,7 @@
     "@value" : "trip duration"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://schema.org/duration"
+    "@id" : "https://schema.org/duration"
   } ]
 }, {
   "@id" : "http://www.w3id.org/urban-iot/sharing#tripEnabledBy",
